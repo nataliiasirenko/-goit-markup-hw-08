@@ -101,6 +101,24 @@
   margin-right: 10px;
 }
 
+mobile .mobile-menu-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mobile-menu-btn .icon-cross {
+  display: none;
+}
+
+.mobile-menu-btn.is-open .icon-cross {
+  display: block;
+}
+
+.mobile-menu-btn.is-open .icon-menu {
+  display: none;
+}
+
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;

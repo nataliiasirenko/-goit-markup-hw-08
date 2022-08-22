@@ -133,13 +133,28 @@
 }
 
 // mobile
-// .mobile-menu-btn {
 
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: center;
-// }
+@media screen and(min-width: $mobile) {
+     .navigation-list{
+        display: none;
+     }
+    }
 
-// .mobile-menu-btn .icon-cross {
-//     display: none;
-// }
+.mobile-menu-btn {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mobile-menu-btn .icon-cross {
+    display: none;
+}
+
+.mobile-menu-btn.is-open .icon-cross {
+    display: block;
+
+}
+.mobile-menu-btn.is-open .icon-menu {
+    display: none;
+}
