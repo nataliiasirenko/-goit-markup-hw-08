@@ -36,6 +36,8 @@
     transform: translate(-50%, -50%) scale(1);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ 
 }
 
 .modal__btn {
@@ -235,11 +237,10 @@
             margin-top: 30px;
         }
 }
-// mobile
-.modal{
-    @media screen and (min-width: 450px) {
-    position: absolute;
-    max-width: 450px;
-    max-height: 609px;
-}
-}
+// // mobile
+// .modal{
+//     @media screen and (min-width: 768px) {
+//     position: absolute;
+
+// }
+// }

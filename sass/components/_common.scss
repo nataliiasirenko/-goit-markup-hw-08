@@ -6,19 +6,22 @@ body {
     letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 400;
-    // mobile
-        @media screen and (min-width: 480px) {
-            width: 480px;
-        }
-        @media screen and (min-width: 768px) {
-            width:768px;
-            
-        }
-        @media screen and (min-width: 1600px) {
-            width:1600px;
-            
-        }
 }
+//     // mobile
+//         @media screen and (min-width: 480px) {
+//             // width: 480px;
+//             background-color: orange;
+//         }
+//         @media screen and (min-width: 768px) {
+//             // width:768px;
+//             background-color: aqua;
+//         }
+//         @media screen and (min-width: 1600px) {
+//             // width:1600px;
+//             background-color: bisque;
+            
+//         }
+// }
 ul,
 h1,
 h2,
