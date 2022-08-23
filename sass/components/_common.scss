@@ -39,7 +39,7 @@ p {
 // .navigation-list__link,
 .link {
   text-decoration: none;
-@include centredFlex();
+// @include centredFlex();
 }
 // .link,
 // .contacts-list__link,
@@ -51,7 +51,7 @@ p {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -70,4 +70,9 @@ p {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }

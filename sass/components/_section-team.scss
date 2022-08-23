@@ -70,3 +70,24 @@
 .team-social__account:not(:last-child) {
     margin-right: 10px;
 }
+
+// mobile
+.team-list__item {
+    @media screen and (max-width: 785px) {
+        margin-right: 0;
+        min-width: 450px;
+        display: block;
+    }
+}
+
+.team-list__item:not(:last-child) {
+    @media screen and (max-width: 785px) {
+        margin-bottom: 30px;
+    }
+}
+.team-list{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

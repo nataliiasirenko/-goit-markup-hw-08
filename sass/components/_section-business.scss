@@ -45,3 +45,11 @@
 
    
 }
+
+// mobile
+
+.section.business{
+    @media screen and (max-width: 1599px){
+    display: none;
+}
+}

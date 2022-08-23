@@ -18,6 +18,8 @@
 .hero__button {
     display: inline-block;
     font-family: 'Roboto';
+    max-width: 260px;
+    max-height: 50px;
 
     color: #ffffff;
     background-color: $accentColor;
@@ -46,4 +48,45 @@
 }
 
 // mobile
+.overlay{
+@media screen and (max-width: 767px) {
+  width: 100%vw;
+  height: 100%vh;
+ 
+}
+}
+.hero-title{
+  @media screen and (max-width: 767px){
+  
+  line-height: 1.61;
 
+}
+}
+.hero {
+  @media screen and (max-width: 767px){
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  }
+}
+
+.overlay {
+  @media screen and (max-width: 1599px) {
+    width: 100%vw;
+    height: 100%vh;
+
+  }
+}
+
+.hero-title {
+  @media screen and (max-width: 1599px) {
+    line-height: 1.61;
+  }
+}
+
+.hero {
+  @media screen and (max-width: 1599px) {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
