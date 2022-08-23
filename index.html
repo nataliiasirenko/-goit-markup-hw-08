@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--шапка сайту-->
@@ -24,7 +24,31 @@
       <div class="container navigation">
         <nav class="navigation-set">
           <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-<div class="mobile-menu">
+         <ul class="navigation-list">
+            <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link link current">Студія</a></li>
+            <li class="navigation-list__item"><a href="./portfolio.html" class="navigation-list__link link">Портфоліо</a></li>
+            <li class="navigation-list__item"><a href="" class="navigation-list__link link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-set">
+          <li class="contacts-list">
+            <a class="contacts-list__link link" href="mailto:info@devstudio.com" aria-lable="email">
+              <svg class="contacts-list__icon--mail" height="12" width="16">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-list">
+            <a class="contacts-list__link link" href="tel:+380961111111">
+              <svg class="contacts-list__icon--phone" with="10" heigt="12">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+
+    <!-- mobile -->
+          <!-- <div class="mobile-menu">
           <ul class="navigation-list">
             <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link link current">Студія</a></li>
             <li class="navigation-list__item"><a href="./portfolio.html" class="navigation-list__link link">Портфоліо</a></li>
@@ -47,7 +71,7 @@
             </a>
           </li>
         </ul>
-        </div>
+        </div> -->
           <button type="button" 
           class="mobile-menu-btn is-open" 
           data-menu-button aria-expanded="false">
@@ -62,14 +86,14 @@
     
     <!--Головна інформація-->
     <main>
-      <div class="overlay">
+      <!-- <div class="overlay">
         <section class="hero">
           <h1 class="hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
           <button data-modal-open type="button" class="hero__button" >Замовити послугу</button>
         </section>
-      </div>
+      </div> -->
       <!--особливості-->
-      <section class="section-features">
+      <!-- <section class="section-features">
         <div class="container">
           <h2 class="features-title visually-hidden">особливості</h2>
           <ul class="features-list">
@@ -97,9 +121,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--основні види діяльності-->
-      <section class="section business">
+      <!-- <section class="section business">
         <div class="container ">
           <h2 class="business-title">Чим ми займаємося</h2>
           <ul class="actions">
@@ -130,9 +154,9 @@
               </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--колектив-->
-      <section class="section-team">
+      <!-- <section class="section-team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
@@ -286,8 +310,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section clients">
+      </section> -->
+      <!-- <section class="section clients">
         <h2 class="clients-title">Постійні клієнти</h2>
         <ul class="company-list">
                   <li class="company-list__item">
@@ -333,12 +357,12 @@
                     </a>
                   </li>
                   </ul>
-      </section>
+      </section> -->
 
     </main>
 
     <!--футер-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container ">
         <div class="footer-main">
         <div class="footer-container">
@@ -403,7 +427,7 @@
                 </div>
             </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
        <div class="modal__btn">
