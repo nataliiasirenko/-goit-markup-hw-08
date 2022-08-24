@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--шапка сайту-->
@@ -25,28 +25,64 @@
       <div class="container navigation">
         <nav class="navigation-set">
           <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-          <ul class="navigation-list">
-            <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link">Студія</a></li>
-            <li class="navigation-list__item"><a href="./portfolio.html" class="navigation-list__link current">Портфоліо</a></li>
-            <li class="navigation-list__item"><a href="" class="navigation-list__link">Контакти</a></li>
+         <ul class="navigation-list">
+            <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link link current">Студія</a></li>
+            <li class="navigation-list__item"><a href="./portfolio.html" class="navigation-list__link link">Портфоліо</a></li>
+            <li class="navigation-list__item"><a href="" class="navigation-list__link link">Контакти</a></li>
           </ul>
-        </nav>
+    </nav>
         <ul class="contacts-set">
           <li class="contacts-list">
-            <a class="contacts-list__link" href="mailto:info@devstudio.com" aria-lable="email">
+            <a class="contacts-list__link link" href="mailto:info@devstudio.com" aria-lable="email">
               <svg class="contacts-list__icon--mail" height="12" width="16">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
                 </svg>info@devstudio.com
             </a>
           </li>
           <li class="contacts-list">
-            <a class="contacts-list__link" href="tel:+380961111111">
+            <a class="contacts-list__link link" href="tel:+380961111111">
               <svg class="contacts-list__icon--phone" with="10" heigt="12">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11
             </a>
           </li>
         </ul>
+
+    <!-- mobile -->
+          <div class="mobile-menu" data-menu>
+          <ul class="mobile-navigation-list">
+            <li class="mobile-navigation-list__item"><a href="./index.html" class="mobile-navigation-list__link link ">Студія</a></li>
+            <li class="mobile-navigation-list__item"><a href="./portfolio.html" class="mobile-navigation-list__link link">Портфоліо</a></li>
+            <li class="mobile-navigation-list__item"><a href="" class="mobile-navigation-list__link link">Контакти</a></li>
+          </ul>
+    
+        <ul class="mobile-contacts-set">
+                 <li class="mobile-contacts-list">
+            <a class="mobile-contacts-list__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-contacts-list">
+            <a class="mobile-contacts-list__link link" href="mailto:info@devstudio.com" aria-lable="email">info@devstudio.com
+            </a>
+          </li>
+
+        </ul>
+        <ul class="mobile-social">
+          <li class="mobile-social__item"><a href="" class="mobile-social__link"></a>Instagram</li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link"></a>Twitter</li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link"></a>Facebook</li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link"></a>LinkedIn</li>
+        </ul>
+        </div>
+        
+          <button type="button" 
+          class="mobile-menu-btn" 
+          data-menu-button aria-expanded="false">
+            
+            <svg width="40" height="40" aria-label="перемикач моюбільного меню">
+              <use class="icon-cross" href="./images/symbol-defs.svg#icon-close_40px"></use>
+              <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu_24px"></use>
+            </svg>
+          </button>
       </div>
     </header>
     <!--Головна інформація-->
@@ -84,7 +120,7 @@
                   src="./images/tekhnokryak_project.png"
                   alt="робота веб сторінки"
                   width="370"
-                  class="work-list__image"/>
+                  class="work-list__image--overlay"/>
                   <div class="work-list__overlay">
                 <p class="work-list__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
               </div>
@@ -103,7 +139,7 @@
                   src="./images/new_orl_an_vs_golden_star.png"
                   alt="дизайнерська робота"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Постер New Orlean vs Golden Star</h2>
@@ -117,7 +153,7 @@
                   src="./images/seafood.png"
                   alt="робота додатоку для ресторану"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Ресторан Seafood</h2>
@@ -131,7 +167,7 @@
                   src="./images/prime.png"
                   alt="робота маркетингового проекту прайм"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Проєкт Prime</h2>
@@ -145,7 +181,7 @@
                   src="./images/boxes.png"
                   alt="робота додатку боксис"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Проєкт Boxes</h2>
@@ -159,7 +195,7 @@
                   src="./images/inspiration_has_no_borders.png"
                   alt="робота веб сторінки "
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Inspiration has no Borders</h2>
@@ -173,7 +209,7 @@
                   src="./images/limited_edition.png"
                   alt="дизайнерська робота"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Видання Limited Edition</h2>
@@ -187,7 +223,7 @@
                   src="./images/LAB.png"
                   alt="робота маркетингового проекту"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Проєкт LAB</h2>
@@ -201,7 +237,7 @@
                   src="./images/growing_business.png"
                   alt="робота додатку зростання бізнесу"
                   width="370"
-                  class="work-list__image"
+                  class="work-list__image--overlay"
                 />
                 <div class="work-list__title">
                   <h2 class="work-list__subtitle">Growing Business</h2>
@@ -281,5 +317,6 @@
             </div>
       </div>
     </footer>
+     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -68,8 +68,13 @@ p {
     margin: -1px;
 }
 .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width:1600px){
     padding-top: 94px;
     padding-bottom: 94px;
+    }
+  
 }
 button{
     background-color: transparent;

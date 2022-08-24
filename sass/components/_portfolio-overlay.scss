@@ -1,18 +1,21 @@
 
 
 .work-list__image--overlay {
+    width: 100%;
     display: block;
     position: relative;
     overflow: hidden;
+   
 }
 
 .work-list__overlay {
     position: absolute;
     display: flex;
     width: 100%;
-    min-height: 294px;
+    height: 100%;
     top: 0;
     right: 0;
+    // z-index: 2;
     transition: transform 250ms;
 
     .work-list__item:hover &,
