@@ -309,7 +309,6 @@
 }
 @media screen and (min-width: 768px) {
   .logo {
-    margin-right: 93px;
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -854,6 +853,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1600px) {
