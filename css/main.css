@@ -309,6 +309,7 @@
 }
 @media screen and (min-width: 768px) {
   .logo {
+    margin-right: 93px;
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -318,6 +319,14 @@
 }
 .logo-footer {
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    margin-right: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 body {
@@ -355,6 +364,21 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -385,6 +409,12 @@ button {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .social-link {
@@ -853,13 +883,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 1600px) {
   .subscribe {
     display: block;
     margin-left: auto;
+    margin-top: 0;
   }
 }
 
