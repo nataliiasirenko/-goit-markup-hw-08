@@ -4,11 +4,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    
-    
 }
-
-
 
 .company-list__item {
     display: inline-block;
@@ -42,7 +38,7 @@
        }
  
 
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1200px) {
         width: calc((100% - 150px) / 6);
         margin-bottom: 0;
         

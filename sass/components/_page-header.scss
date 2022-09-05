@@ -59,21 +59,29 @@
 /* contacts */
 .contacts-set {
     display: flex;
+    padding-top: 21px;
+    padding-bottom: 21px;
     margin-left: auto;
-    @media screen and (min-width:768px) and (max-width:1600px){
+    @media screen and (min-width:768px) and (max-width:1200px){
         flex-direction: column;
         gap: 10px;
+    }
+    @media screen and ( min-width: 1200px) {
+    padding-top: 0;
+    padding-bottom: 0;
+        
     }
 }
 
 .contacts-list:not(:last-child) {
-    @media screen and (min-width: 1600px){
+    @media screen and (min-width: 1200px){
     margin-right: 50px;
 }
 }
 
 
-.contacts-list__link {
+.contacts-list__link {  
+
     color: $textColor;
     font-weight: 500;
     font-size: 14px;
@@ -81,6 +89,11 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 1200px){
+        padding-top: 32px;
+        padding-bottom: 32px;
+        
+    }
 
 
 

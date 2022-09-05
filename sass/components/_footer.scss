@@ -8,7 +8,7 @@
     flex-direction: column;
     text-align: center;
     
-    @media screen  and(min-width: 1600px){
+    @media screen  and(min-width: 1200px){
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -28,7 +28,7 @@
 
 .footer-container {
   
-    @media screen and(min-width: 1600px) {
+    @media screen and(min-width: 1200px) {
     margin-right: 70px;
 
 
@@ -155,7 +155,7 @@
     margin-top: 60px;
         }
 
-    @media screen and(min-width: 1600px) {
+    @media screen and(min-width: 1200px) {
     display: block;
     margin-left: auto;
     margin-top: 0;
@@ -190,7 +190,7 @@
     border: none;
     // vertical-align: middle;
 
-    @media screen and(min-width: 1600px) {
+    @media screen and(min-width: 1200px) {
             margin-top: 0px;
             
     }
@@ -229,7 +229,7 @@
        width: 450px;
         }
 
-    @media screen and(min-width: 1600px){
+    @media screen and(min-width: 1200px){
         width: 359px;
     }
         

@@ -48,8 +48,10 @@
     display: inline-block;
     width: 100%;
     margin-right: 0px;
-    margin-bottom: 30px;
 
+    &:not(:last-child){
+    margin-bottom: 30px;
+    }
     @media screen and (min-width: 768px) {
        width: calc((100% - 30px) / 2);
     
@@ -61,11 +63,13 @@
             margin-bottom: 0;
         }
     }
-    @media screen and (min-width: 1600px){
+    @media screen and (min-width: 1200px){
         width: calc((100% - 90px) / 4);
           &:not(:last-child){
             margin-right: 30px;
-
+    }
+       &:not(:last-child){
+    margin-bottom: 0;
     }
 }
 }
